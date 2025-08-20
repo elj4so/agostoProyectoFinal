@@ -85,8 +85,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-red-400 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-300">Av. Revolución 123</p>
-                  <p className="text-gray-300">Col. Centro, CDMX 06000</p>
+                  <p className="text-gray-300">Violeta 105</p>
+                  <p className="text-gray-300">Hacienda las Flores, 34166 Durango, Dgo.</p>
                 </div>
               </div>
               
@@ -96,7 +96,7 @@ const Footer = () => {
                   href="tel:+5512345678"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
-                  (55) 1234-5678
+                  (+52) 618-109-89-99
                 </a>
               </div>
               
@@ -106,7 +106,7 @@ const Footer = () => {
                   href="mailto:hola@taconmadres.mx"
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
-                  hola@taconmadres.mx
+                  taconmadres@gmail.com
                 </a>
               </div>
             </div>
@@ -176,7 +176,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © 2024 Taconmadres. Todos los derechos reservados.
+              © 2025 Taconmadres. Todos los derechos reservados.
             </p>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors duration-300">

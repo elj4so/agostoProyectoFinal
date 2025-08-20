@@ -26,7 +26,7 @@ const Location = () => {
           {/* Map */}
           <div className="relative rounded-2xl overflow-hidden shadow-xl h-96 lg:h-auto">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8267891234567!2d-99.1677!3d19.4326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5b5b5b5%3A0x1234567890abcdef!2sCiudad%20de%20México%2C%20CDMX!5e0!3m2!1ses!2smx!4v1234567890123!5m2!1ses!2smx"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17330.07936384084!2d-104.61090443681428!3d24.059246344917337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bb6fa22a95a19%3A0xa961fd0dc3b5f050!2sTacon%20Madres!5e0!3m2!1ses-419!2smx!4v1755663868511!5m2!1ses-419!2smx"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -61,11 +61,10 @@ const Location = () => {
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Dirección</h3>
                   <p className="text-gray-600 mb-4">
-                    Av. Revolución 123, Col. Centro<br />
-                    Ciudad de México, CDMX 06000
+                    Violeta 105, Hacienda las Flores, 34166 Durango, Dgo.<br />
                   </p>
                   <a 
-                    href="https://maps.google.com/?q=Av.+Revolución+123,+Ciudad+de+México"
+                    href="https://maps.app.goo.gl/VkwBAudaNi4ryuuE9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center space-x-2 text-red-600 hover:text-red-700 font-semibold transition-colors duration-300"
@@ -120,13 +119,13 @@ const Location = () => {
                       className="flex items-center space-x-2 text-gray-800 hover:text-red-600 transition-colors duration-300"
                     >
                       <Phone className="w-4 h-4" />
-                      <span>(55) 1234-5678</span>
+                      <span>(+52) 618-109-89-99</span>
                     </a>
                     <a 
                       href="mailto:hola@taconmadres.mx"
                       className="text-gray-800 hover:text-red-600 transition-colors duration-300"
                     >
-                      hola@taconmadres.mx
+                      taconmadres@gmail.com
                     </a>
                   </div>
                 </div>
@@ -139,13 +138,13 @@ const Location = () => {
               <p className="mb-6">Ven y disfruta de la mejor experiencia taquera de la ciudad</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="tel:+5512345678"
+                  href="tel:+526181098999"
                   className="bg-white text-red-600 px-6 py-3 rounded-full font-semibold hover:bg-yellow-50 transition-colors duration-300"
                 >
                   Llamar para Reservar
                 </a>
                 <a 
-                  href="https://maps.google.com/?q=Av.+Revolución+123,+Ciudad+de+México"
+                  href="https://maps.app.goo.gl/VkwBAudaNi4ryuuE9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-red-600 transition-all duration-300"

@@ -8,7 +8,7 @@ const Menu = () => {
       name: "Tacos al Pastor",
       description: "Carne de cerdo marinada con achiote, servida con piña, cebolla y cilantro",
       price: "$15",
-      image: "https://images.pexels.com/photos/4958792/pexels-photo-4958792.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=2",
+      image: "https://www.entornoturistico.com/wp-content/uploads/2023/02/3-tacos-al-pastor-1280x720.jpeg",
       badge: "Más Popular",
       icon: Users
     },
@@ -17,7 +17,7 @@ const Menu = () => {
       name: "Tacos de Carnitas",
       description: "Carne de cerdo confitada lentamente, crujiente por fuera y jugosa por dentro",
       price: "$18",
-      image: "https://images.pexels.com/photos/4518842/pexels-photo-4518842.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=2",
+      image: "https://www.goya.com/wp-content/uploads/2023/10/carnitas.jpg",
       badge: "Especialidad",
       icon: ChefHat
     },
@@ -26,8 +26,8 @@ const Menu = () => {
       name: "Tacos de Barbacoa",
       description: "Res cocida a fuego lento por 8 horas, sazonada con especias tradicionales",
       price: "$20",
-      image: "https://images.pexels.com/photos/5876695/pexels-photo-5876695.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=2",
-      badge: "Chef's Choice",
+      image: "https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg",
+      badge: "Elección del Chef",
       icon: Flame
     },
     {
@@ -35,7 +35,7 @@ const Menu = () => {
       name: "Tacos de Pollo",
       description: "Pechuga de pollo marinada con especias mexicanas, a la parrilla",
       price: "$12",
-      image: "https://images.pexels.com/photos/5474640/pexels-photo-5474640.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=2",
+      image: "https://partaste.com/worldrecipes/wp-content/uploads/sites/2/2015/06/tacos_de_pollo.jpg",
       badge: "Saludable",
       icon: Star
     },
@@ -44,7 +44,7 @@ const Menu = () => {
       name: "Tacos de Pescado",
       description: "Pescado fresco empanizado, servido con repollo y salsa de chipotle",
       price: "$16",
-      image: "https://images.pexels.com/photos/6107787/pexels-photo-6107787.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=2",
+      image: "https://images.ctfassets.net/0e6jqcgsrcye/1QKe8PCJw9FqCCPqPGzEBO/d0b89bf0271e1730c2c3490a9950bd87/fishtacos_wallpaper.jpg",
       badge: "Temporada",
       icon: Star
     },
@@ -53,8 +53,8 @@ const Menu = () => {
       name: "Tacos Vegetarianos",
       description: "Mix de verduras asadas, frijoles negros, aguacate y queso Oaxaca",
       price: "$14",
-      image: "https://images.pexels.com/photos/4958641/pexels-photo-4958641.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=2",
-      badge: "Veggie",
+      image: "https://recetasveganas.net/wp-content/uploads/2020/07/recetas-tacos-sin-carne-vegetariano-alubias-aguacate-tomate-olivas2.jpg",
+      badge: "Vegetariano",
       icon: Star
     }
   ];
@@ -63,10 +63,10 @@ const Menu = () => {
     switch (badge) {
       case "Más Popular": return "bg-red-500";
       case "Especialidad": return "bg-orange-500";
-      case "Chef's Choice": return "bg-purple-500";
+      case "Elección del Chef": return "bg-purple-500";
       case "Saludable": return "bg-green-500";
       case "Temporada": return "bg-blue-500";
-      case "Veggie": return "bg-emerald-500";
+      case "Vegetariano": return "bg-emerald-500";
       default: return "bg-gray-500";
     }
   };

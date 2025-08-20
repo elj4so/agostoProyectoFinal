@@ -42,7 +42,7 @@ const About = () => {
           {/* Image */}
           <div className="relative">
             <img 
-              src="https://images.pexels.com/photos/4518843/pexels-photo-4518843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/b0/0d/94/taco-n-madre.jpg?w=2000&h=-1&s=1"
               alt="Interior de la taquería"
               className="rounded-2xl shadow-xl w-full h-80 object-cover"
             />
@@ -73,13 +73,13 @@ const About = () => {
             
             <div className="flex items-center space-x-4">
               <img 
-                src="https://images.pexels.com/photos/3771120/pexels-photo-3771120.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2"
+                src="https://i.pinimg.com/736x/ea/bc/ff/eabcffb34dbaa262529750d09583b471.jpg"
                 alt="Chef propietario"
                 className="w-16 h-16 rounded-full object-cover border-4 border-red-200"
               />
               <div>
-                <div className="font-semibold text-gray-800">Chef María González</div>
-                <div className="text-gray-600">Fundadora & Chef Principal</div>
+                <div className="font-semibold text-gray-800">Chef Pablo Ángel Enríquez Mora</div>
+                <div className="text-gray-600">Fundador & Chef Principal</div>
               </div>
             </div>
           </div>

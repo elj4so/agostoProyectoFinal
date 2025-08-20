@@ -58,7 +58,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4 text-sm text-gray-600">
             <div className="flex items-center space-x-1">
               <Phone className="w-4 h-4" />
-              <span>(55) 1234-5678</span>
+              <span>(+52) 618-109-89-99</span>
             </div>
           </div>
 

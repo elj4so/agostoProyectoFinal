@@ -79,7 +79,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
               <img 
-                src="https://images.pexels.com/photos/4958792/pexels-photo-4958792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://www.entornoturistico.com/wp-content/uploads/2023/02/3-tacos-al-pastor-1280x720.jpeg"
                 alt="Deliciosos tacos mexicanos"
                 className="w-full h-96 md:h-[500px] object-cover"
               />
