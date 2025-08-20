@@ -5,19 +5,19 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Facebook,
-      href: "https://facebook.com/taconmadres",
+      href: "",
       label: "Facebook",
       color: "hover:text-blue-500"
     },
     {
       icon: Instagram,
-      href: "https://instagram.com/taconmadres",
+      href: "",
       label: "Instagram",
       color: "hover:text-pink-500"
     },
     {
       icon: Twitter,
-      href: "https://twitter.com/taconmadres",
+      href: "",
       label: "Twitter",
       color: "hover:text-blue-400"
     }
@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed max-w-md">
-              Desde 2014, llevamos los sabores auténticos de México a tu mesa. 
+              Desde 2015, llevamos los sabores auténticos de México a tu mesa. 
               Cada taco es preparado con amor, ingredientes frescos y las recetas 
               tradicionales de nuestras abuelas.
             </p>
