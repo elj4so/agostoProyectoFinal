@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-full p-2">
+              <div>
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/12515/12515919.png"
                   alt="Logo de Taconmadres"

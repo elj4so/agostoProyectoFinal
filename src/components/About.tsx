@@ -33,7 +33,7 @@ const About = () => {
             Nuestra Historia
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Desde 2014, Taconmadres ha sido el hogar de los sabores auténticos mexicanos, 
+            Desde 2015, Taconmadres ha sido el hogar de los sabores auténticos mexicanos, 
             donde cada taco cuenta una historia de tradición, pasión y amor por la cocina.
           </p>
         </div>
